@@ -36,13 +36,14 @@ nav {
     text-align: right;
     color: var(--accent-color);
     margin-right: 80px;
-    text-decoration: none;
+    text-decoration:underline rgb(32, 155, 217);
 }
 
 #links h1{
     padding: 0px 5px;
     color: var(--accent-color);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
 #links h1:visited {
@@ -52,7 +53,8 @@ nav {
 
 #links h1:hover {
     color:white;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 
 #banner {
@@ -101,11 +103,27 @@ main {
 }
 
 .row{
+    display:flex;
     flex-direction: row;
     width: 100%;
-    display:flex;
 }
 
-.first-row{
-    
+.project-one {
+    display:flex;
+    background-image: url("../images/seattle.png");
+    background-size: cover;
+    background-position: center;
+    height:70vh;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.tag {
+    display: flex;
+    background-color: var(--accent-color);
+    color: var(--shadow-color);
+    padding: 0px 10px 0px 80px;
+    font-weight:bold;
+    font-size: 1.25em;
+    padding: 10px 10px 10px 80px;
 }
