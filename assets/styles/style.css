@@ -40,7 +40,7 @@ nav {
 }
 
 #links h1{
-    padding: 0px 5px;
+    padding: 0px 15px;
     color: var(--accent-color);
     text-decoration: underline;
     text-decoration-color: var(--accent-color);
@@ -118,6 +118,26 @@ main {
     align-items: flex-end;
 }
 
+.project-two {
+    display:flex;
+    background-image: url("../images/dogs\ in\ field.png");
+    background-size: cover;
+    background-position: center;
+    height:70vh;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.project-three {
+    display:flex;
+    background-image: url("../images/calendars.png");
+    background-size: cover;
+    background-position: center;
+    height:70vh;
+    justify-content: start;
+    align-items: flex-end;
+}
+
 .tag {
     display: flex;
     background-color: var(--accent-color);
@@ -126,4 +146,14 @@ main {
     font-weight:bold;
     font-size: 1.25em;
     padding: 10px 10px 10px 80px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--shadow-color);
+    align-items: center;
+    justify-content: space-around;
+    font-size: .75em;
+    padding: 10px 0px;
 }
