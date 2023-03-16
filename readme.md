@@ -10,6 +10,7 @@ I used this project to assess my current html and css skills. It uses background
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Contributions](#contributions)
 
 ## Installation
 
@@ -17,6 +18,7 @@ To install:
 ```
 git pull git@github.com:error201/advanced_css_resume.git
 ```
+Then open the ```index.html``` file in your browser of choice.
 
 ## Usage
 
@@ -27,9 +29,13 @@ Click the links and watch the magic happen.
 
 ## License
 
-This project is covered under the GNU general public license. See attached.
+This project is covered under the MIT license. Please see [LICENSE](./LICENSE) for details.
 
 ---
+
+## Contributions
+All Images courtesy of Midjourney AI. Please see [this license](https://creativecommons.org/licenses/by-nc/4.0/legalcode) for use.
+
 
 ## Badges
 
