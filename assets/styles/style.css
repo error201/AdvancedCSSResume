@@ -1,7 +1,15 @@
 :root {
-    --accent-color: rgb(36, 116, 221);
+    --accent-color: rgb(32, 155, 217);
     --shadow-color: rgb(50, 50, 50);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: #e3f3fa;
+}
+
+a:any-link{
+    text-decoration: none;
 }
 
 nav {
@@ -17,21 +25,34 @@ nav {
     display: inline;
     background-color: var(--accent-color);
     color: var(--shadow-color);
-    padding: 1px 10px 1px 80px;
+    padding: 0px 10px 0px 80px;
     font-weight:bold;
+    font-size: 1.5em
 }
 
 #links {
     display: flex;
     flex-wrap: nowrap;
     text-align: right;
-    color: var(--shadow-color);
+    color: var(--accent-color);
     margin-right: 80px;
+    text-decoration: none;
 }
 
-#links span{
+#links h1{
     padding: 0px 5px;
-    color: var(--shadow-color);
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+#links h1:visited {
+    color:var(--accent-color);
+    text-decoration: none;
+}
+
+#links h1:hover {
+    color:white;
+    text-decoration: none;
 }
 
 #banner {
@@ -48,14 +69,14 @@ nav {
 #subtitle {
     background-color: var(--accent-color);
     color: var(--shadow-color);
-    padding: 1px 10px 1px 80px;
+    padding: 1px 80px 1px 10px;
     font-weight:bold;
 }
 
 main {
     display:flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items:flex-end;
     width:100%;
 }
@@ -64,11 +85,27 @@ main {
     border-right: 5px solid var(--shadow-color);
     padding: 10px;
     text-align: end;
+    justify-content: flex-start;
     margin: 10px;
+    width: 20vw;
+    font-size: 1.25em;
+    font-weight:bold;
 }
 
 .right-side {
     text-align: left;
     padding: 10px;
     margin: 10px;
+    justify-content: flex-end;
+    width: 70vw;
+}
+
+.row{
+    flex-direction: row;
+    width: 100%;
+    display:flex;
+}
+
+.first-row{
+    
 }
